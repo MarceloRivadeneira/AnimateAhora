@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>AnimateAhora</title>
+  <link rel="icon" href="images/faviicon.ico">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- Java Sccript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Awesome Fonts -->
+  <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="images/Logo noviembre 2020.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Productos
+              </a>
+              <div class="dropdown-menu dropdown-menu animate slideIn" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="construccion.html" target="_self">📱 Desarrollo Apps Móviles</a>
+                <a class="dropdown-item" href="construccion.html" target="_self">💻 Diseño web</a>
+                <a class="dropdown-item" href="construccion.html" target="_self">🎬 Animación, Motion Graphics</a>
+                <a class="dropdown-item" href="construccion.html" target="_self">🎨 Branding, Diseño gráfico</a>
+                <a class="dropdown-item" href="construccion.html" target="_self">💖 UX/UI</a>
+                <a class="dropdown-item" href="construccion.html" target="_self">🎵 Diseño de sonido y musicalización</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="construccion.html" target="_self">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="construccion.html" target="_self">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>"El <strong>diseño</strong> es el alma de todo lo creado por el hombre"</h1>
+          <br>
+          <br>
+          <a href="contactos.html" target="_self">
+            <button type="button" class="btn btn-dark btn-lg boton-contacto"><i class="fas fa-envelope"></i></i> Contáctos</button>
+          </a>
+          <a href="Quienessomos.html" target="_self">
+            <button type="button" class="btn btn-outline-light btn-lg boton-conoce"><i class="fas fa-users"></i></i> Conócenos</button>
+          </a>
+
+        </div>
+
+        <div class="col-lg-6">
+          <img class="cel1" src="images/cel-1.png" alt="AnimateAhora">
+
+        </div>
+      </div>
+  </section>
+
+  <!-- Quienes-somos -->
+  <div class="container">
+    <h1 id="Titulo2">Quienes somos..</h1>
+  </div>
+
+  <div class="botones container">
+
+    <button type="button" class="btn btn-primary btn-lg boton-video" data-toggle="modal" data-target="#exampleModal">▶ ver video</button>
+    <a href="construccion.html" target="_self">
+      <button type="button" class="btn btn-secondary btn-lg boton-ver">ver más..</button>
+    </a>
+
+  </div>
+
+  <img class="cel2" src="images/cel-2.png" alt="AnimateAhora">
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="iframe-container">
+            <iframe width="1100" height="506" src="https://www.youtube.com/embed/ZkK3QWRgWm4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Porque elegirnos -->
+  <section id="seccion3">
+    <h1 id="Titulo3">¿Porqué elegirnos?</h1>
+    <div class="container-fluid">
+      <div class="row icos">
+
+        <div class="feature-box col">
+          <div class="circle1">
+            <img class="ico1" src="images/ico1.png" alt="">
+            <h3 class="t3">Investigar</h3>
+          </div>
+        </div>
+
+        <div class="feature-box col">
+          <div class="circle2">
+            <img class="ico2" src="images/ico2.png" alt="">
+            <h3 class="t3">Analizar</h3>
+          </div>
+        </div>
+
+        <div class="feature-box col">
+          <div class="circle3">
+            <img class="ico3" src="images/ico3.png" alt="">
+            <h3 class="t3"> Diseñar</h3>
+          </div>
+        </div>
+
+        <div class="feature-box col">
+          <div class="circle4">
+            <img class="ico4" src="images/ico4.png" alt="">
+            <h3 class="t3"> Evaluar</h3>
+          </div>
+        </div>
+
+        <div class="feature-box col">
+          <div class="circle5">
+            <img class="ico5" src="images/ico5.png" alt="">
+            <h3 class="t3">Desarrollar</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid parrafo">
+      <p>Porque todos nuestros productos digitales, pasan por nuestro <strong class="t4">workflow UX</strong> patentado. Y es de gran orgullo para nosotros poder aplicar dicho proceso en cada producto que realizamos.
+        <br>
+        <br>
+        Pero quizá te preguntes <strong class="t4">¿Cómo esta metodología ayuda a mi proyecto?</strong>
+        <br>
+        <br>
+        Simple, pues gracias a este gran proceso, tus productos digitales serán <strong class="t5">funcionales, fáciles de usar, intuitivos y bonitos.</strong>
+      </p>
+    </div>
+  </section>
+
+  <!--Trabajos recientes -->
+
+
+  <h1 id="Titulo2">Trabajos recientes..</h1>
+
+  <div class="container-fluid">
+    <div class="row fila">
+      <div class="col3 col-lg-4">
+        <div class="card i2" style="width: 18rem;">
+          <img class="ico6" src="images/ico9.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="texto5 card-text"><strong class="texto6">Ecohéroes</strong>
+              <br>
+              Banner de Arte digital. Toma conciencia no hay Planeta B.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col3 col-lg-4">
+        <div class="card i2" style="width: 18rem;">
+          <img class="ico7" src="images/ico7.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="texto5 card-text"><strong class="texto6">Workflowteam</strong>
+              <br>
+              Banner digital de Desarrollo de software, para redes sociales.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col3 col-lg-4">
+        <div class="card i2" style="width: 18rem;">
+          <img class="ico8" src="images/ico8.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="texto5 card-text"><strong class="texto6">AyudArte</strong>
+              <br>
+              Diseño y desarrollo de plataforma digital, App y web.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="botones3 container">
+      <a href="construccion.html" target="_self">
+        <button type="button" class="btn btn-primary btn-lg boton-video" data-toggle="modal" data-target="#exampleModal">ver mas..</button>
+      </a>
+    </div>
+  </div>
+
+  <!--llamado de acción -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container-fluid con4">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1 class="t9">Haz realidad tu proyecto!</h1>
+      </div>
+      <div class="col-6 col-lg-4">
+        <a href="contactos.html" target="_blank">
+          <button type="button" class="btn btn-primary btn-lg boton-video bot5" data-toggle="modal" data-target="#exampleModal">Contáctos</button>
+      </div>
+      </a>
+
+
+    </div>
+  </div>
+
+  <!--recomendaciones -->
+
+  <div class="container">
+    <h1 id="Titulo2">Nuestros clientes..</h1>
+  </div>
+
+  <!-- carrusel 1 -->
+
+  <div id="carrusel-testimonio" class="carousel slide" data-ride="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <section id="Seccion4">
+          <img class="ico10" src="images/ico10.png" alt="">
+          <h4 class="tit4">CP Visto</h4>
+          <p class="parr4">"Realizaron mi proyecto de una plataforma web de calificación de proveedores, una verdadera obra de arte</p>
+        </section>
+
+      </div>
+      <div class="carousel-item">
+        <section id="Seccion4">
+          <img class="ico11" src="images/ico23.png" alt="">
+          <h4 class="tit4">Gustoso</h4>
+          <p class="parr4">"Animate ahora, desarrolló toda la imagen digital de mi empresa, y sin duda marca una diferencia absoluta con la competencia, son profesionales y muy amables</p>
+        </section>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carrusel-testimonio" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" </span>
+
+    </a>
+    <a class="carousel-control-next" href="#carrusel-testimonio" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" </span>
+    </a>
+  </div>
+
+  <!-- carrusel2 -->
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <section id="seccion5">
+          <img class="ico-reco" src="images/ico11.png" alt="">
+          <img class="ico-reco" src="images/ico12.png" alt="">
+          <img class="ico-reco" src="images/ico13.png" alt="">
+          <img class="ico-reco" src="images/ico14.png" alt="">
+          <img class="ico-reco" src="images/ico15.png" alt="">
+          <img class="ico-reco" src="images/ico16.png" alt="">
+        </section>
+      </div>
+      <div class="carousel-item">
+        <section id="seccion6">
+          <img class="ico-reco" src="images/ico17.png" alt="">
+          <img class="ico-reco" src="images/ico18.png" alt="">
+          <img class="ico-reco" src="images/ico19.png" alt="">
+          <img class="ico-reco" src="images/ico20.png" alt="">
+          <img class="ico-reco" src="images/ico21.png" alt="">
+          <img class="ico-reco" src="images/ico22.png" alt="">
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Blog -->
+
+  <section id="seccion7">
+    <hr>
+    <h1 id="Titulo3">Blog de lo + nuevo</h1>
+
+    <div class="container-fluid">
+      <div class="row fila2">
+        <div class="feature-box col-lg-6">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top1" src="https://media4.giphy.com/media/S5tgZf7xdPMPUHLNCj/giphy.gif?cid=ecf05e47d5ud59nqfu9ihnj034k2w3bxeym7wckqiu158xn4&rid=giphy.gif" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="texto6">Tips para teletrabajar desde casa</h5>
+              <p class="parr5">Encuentra la técnica adecuada para teletrabajar, con estos 10 consejos prácticos.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="feature-box col-lg-6">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://media4.giphy.com/media/ddWbZ6p6gKzaGX7g7X/giphy.gif?cid=ecf05e470w4fxke3woye8ancdi9svvuoohd5hblvuu2qvwer&rid=giphy.gif" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="texto6">Tendencias Gráficas de interfaces 2020</h5>
+              <p class="parr5">Descubre lo más nuevo en diseño de interfaces digitales, para entornos de aplicaciones web.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="botones4 container">
+      <a href="construccion.html" target="_self">
+        <button type="button" class="btn btn-primary btn-lg boton-video" data-toggle="modal" data-target="#exampleModal">ver todo..</button>
+      </a>
+
+    </div>
+
+  </section>
+
+  <!--suscribete -->
+
+  <div class="container-fluid con7">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 id="titulo4" class="t10">Suscríbete..</h1>
+        <h4>Recibirás importante contenido digital Gratuito para tu empresa</h4>
+      </div>
+      <div class="col-6 col-lg-6">
+        <div class="input-group input-group-lg">
+          <input type="email" class="form-control" placeholder="Pon tu email. Ej: juan@gmail.com" aria-label="Recipient's username" aria-describedby="button-addon2">
+          <div class="input-group-append">
+            <a href="#">
+              <button type="button" class="btn btn-primary btn-lg boton-video" data-toggle="modal" data-target="#exampleModal">📩 Enviar</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <section id="con8">
+    <hr>
+    <div class="container-fluid">
+      <div class="col-lg-12">
+        <div class="botones4 container">
+          <a href="contactos.html" target="_self">
+            <button type="button" class="btn btn-primary btn-lg boton-video" data-toggle="modal" data-target="#exampleModal">Contáctos</button>
+          </a>
+        </div>
+      </div>
+  </section>
+
+  <section id="Footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <h5>Productos</h5>
+          <ul class="minitext">
+            <li>Diseño de Apps Móviles</li>
+            <li>Diseño de Apps Móviles</li>
+            <li>Diseño web</li>
+            <li>Animación y Motion Graphics</li>
+            <li>Diseño Gráfico y branding</li>
+            <li>Diseño de sonido y musicalización</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <h5>Portfolio</h5>
+          <a href="construccion.html" target="_self">
+            <button type="button" class="btn btn-dark btn-lg boton-contacto"></i></i>Ver portfolio</button>
+          </a>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <h5>Llámanos</h5>
+          <ul class="minitext">
+            <li>
+              <img class="icofoot" src="images/ico24.png" alt=""> 593 98 4479 659
+            </li>
+            <li>
+              <img class="icofoot" src="images/ico25.png" alt=""> Quito - Ecuador <br>
+              Shyris y República del Salvador
+            </li>
+            <li>
+              <img class="icofoot" src="images/ico26.png" alt=""> info@animateahora.com
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <h5>Redes Sociales</h5>
+          <ul>
+            <li>
+              <img class="icofoot" src="images/ico27.png" alt="face">
+            </li>
+            <li>
+              <img class="icofoot" src="images/ico28.png" alt="insta">
+            </li>
+            <li>
+              <img class="icofoot" src="images/ico29.png" alt="">
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <h6 class="dere">®Marcelo Rivadeneira 2020. Todos los derechos reservados</h6>
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,720 @@
+body {
+  font-family: "Open sans";
+}
+
+.logo {
+  width: 38%;
+}
+
+#title {
+  background-color: #32005F;
+}
+
+.cel1 {
+  width: 65%;
+  margin: 0 25%
+}
+
+h1 {
+  font-family: "Open sans";
+  font-weight: 600;
+  font-style: italic;
+  font-size: 3rem;
+  color: white;
+  line-height: 1.5;
+  padding-top: 7rem;
+}
+
+#h1cont {
+  font-family: "Open sans";
+  font-weight: 800;
+  font-style: normal;
+  font-size: 3.5rem;
+  color: #32005F;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: -3%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.dropdown-menu {
+  font-family: "Open sans";
+  font-weight: 300;
+  font-size: 1.1rem;
+  border-radius: 3%;
+  line-height: 2.5;
+  border-color: #FF0092;
+  border-width: medium;
+  background-color: #32005F;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+/* ----------------animación-dropdown----------- */
+@media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+  }
+
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: transform;
+    -webkit-opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -webkit-opacity: 1;
+  }
+
+  0% {
+    -webkit-transform: translateY(1rem);
+    -webkit-opacity: 0;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+.boton-contacto {
+  margin: 5% 10% 5% 0;
+  border-color: #FF0092;
+  background-color: #32005F;
+  border-width: medium;
+  font-family: "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.btn-dark:hover {
+  background-color: #FF0092;
+}
+
+.boton-conoce {
+  margin: 5% 10% 5% 0;
+  font-family: "Open sans", sans-serif;
+  border-color: #00FFF9;
+  border-width: medium;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.boton-conoce:hover {
+  color: #32005F;
+}
+
+.navbar {
+  padding: 1rem 0 3rem;
+}
+
+.nav-item {
+  padding: 0 23px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/* ----------quienes somos--------------- */
+#Titulo2 {
+  font-family: "Open sans";
+  font-weight: 800;
+  font-style: normal;
+  color: #32005F;
+  font-size: 4.5rem;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.cel2 {
+  width: 50%;
+  margin-bottom: 5%;
+  margin-left: 26%;
+}
+
+.botones {
+  margin-bottom: 10%;
+  margin-top: 10%;
+  padding-left: 27%;
+}
+
+.boton-video {
+  background-color: #FF00A0;
+  border-color: #FF00A0;
+  font-family: "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.boton-ver {
+  color: #32005F;
+  background-color: white;
+  border-color: #32005F;
+  border-width: medium;
+  font-family: "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.btn-primary:hover {
+  background-color: #32005F;
+}
+
+.btn-secondary:hover {
+  color: white;
+  background-color: #32005F;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* -------------elegirnos---------------- */
+#seccion3 {
+  background-color: #32005F;
+  /* text-align: center; */
+}
+
+#Titulo3 {
+  font-family: "Open sans";
+  font-weight: 800;
+  font-style: normal;
+  color: white;
+  font-size: 4.5rem;
+  text-align: center;
+  padding: 3% 0;
+}
+
+.icos {
+  padding-top: -5%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.circle1 {
+  width: 8rem;
+  height: 8rem;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 0 0 15%;
+}
+
+.circle2:hover {
+  background-color: cyan;
+  margin-top: -7%;
+}
+
+.circle3:hover {
+  background-color: cyan;
+  margin-top: -7%;
+}
+
+.circle4:hover {
+  background-color: cyan;
+  margin-top: -7%;
+}
+
+.circle5:hover {
+  background-color: cyan;
+  margin-top: -7%;
+}
+
+.circle1:hover {
+  background-color: cyan;
+  margin-top: -7%;
+}
+
+.circle2 {
+  width: 8rem;
+  height: 8rem;
+  background-color: #FFC4E9;
+  border-radius: 50%;
+  margin: 0 0 0 15%;
+}
+
+.circle3 {
+  width: 8rem;
+  height: 8rem;
+  background-color: #FF7DCF;
+  border-radius: 50%;
+  margin: 0 0 0 15%;
+}
+
+.circle4 {
+  width: 8rem;
+  height: 8rem;
+  background-color: #FE44B9;
+  border-radius: 50%;
+  margin: 0 0 0 15%;
+}
+
+.circle5 {
+  width: 8rem;
+  height: 8rem;
+  background-color: #FF00A0;
+  border-radius: 100%;
+  margin: 0 0 0 15%;
+}
+
+.ico1 {
+  width: 60%;
+  margin: 16% 0 0 21%;
+}
+
+.ico2 {
+  width: 60%;
+  margin: 9% 0 0 18%;
+}
+
+.ico3 {
+  width: 70%;
+  margin: 16% 0 0 15%;
+}
+
+.ico4 {
+  width: 70%;
+  margin: 16% 0 0 15%;
+}
+
+.ico5 {
+  width: 70%;
+  margin: 16% 0 0 15%;
+}
+
+h3 {
+  font-family: "Source sans pro";
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+}
+
+.t3 {
+  margin: 30% 0 0 0;
+}
+
+.parrafo {
+  font-family: "Source sans pro";
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.t4 {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.t5 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #00FFF9;
+}
+
+/* -------------trabajos recientes.,------------- */
+.i1 {
+  width: 50%;
+  margin: 10% 25%;
+}
+
+.card-body {
+  background-color: #32005F;
+}
+
+.card-text {
+  color: white;
+}
+
+.fila {
+  padding: 4% 0;
+  text-align: center;
+}
+
+.col3 {
+  padding-bottom: 3%;
+}
+
+.col3:hover {
+  margin-top: -3%;
+}
+
+.ico6 {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.ico7 {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.ico8 {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.texto5 {
+  text-align: center;
+  font-family: "Open sans";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.texto6 {
+  text-align: center;
+  font-family: "Open sans";
+  font-weight: 600;
+  color: white;
+  font-style: normal;
+  font-size: 1.4rem;
+}
+
+.botones3 {
+  text-align: center;
+  margin: -5% 11%
+}
+
+/* -------------llamado a la acción------------- */
+.con4 {
+  background-color: #32005F;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.t9 {
+  font-family: "Open sans";
+  font-weight: 800;
+  font-style: italic;
+  font-size: 3.5rem;
+  padding-top: 10%;
+}
+
+.bot5 {
+  margin: 25%;
+}
+
+/* -------------testimonios------------- */
+#Seccion4 {
+  padding: 2% 15%;
+  text-align: center;
+}
+
+.ico10 {
+  width: 22%;
+}
+
+.ico11 {
+  width: 19.7%;
+}
+
+.tit4 {
+  font-family: "Open sans";
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin: 1% 0%;
+  color: #32005F;
+}
+
+.parr4 {
+  font-family: "Open sans";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1rem;
+  color: #32005F;
+}
+
+.ico-reco {
+  width: 6%;
+  margin: 2%;
+}
+
+#seccion5 {
+  background-color: #32005F;
+  padding: 2% 0%;
+  text-align: center;
+}
+
+#seccion6 {
+  padding: 2% 0%;
+  text-align: center;
+  background-color: white;
+}
+
+.carousel-control-prev-icon {
+  filter: invert(1);
+  width: 20%;
+  height: 20%;
+  margin: 2%;
+}
+
+.carousel-control-next-icon {
+  filter: invert(1);
+  width: 20%;
+  height: 20%;
+  margin: 2%;
+}
+
+.carousel-control-next-icon:hover {
+  background-color: #ff0006;
+}
+
+.carousel-control-prev-icon:hover {
+  background-color: #ff0006;
+}
+
+/* BLOG */
+hr {
+  border-style: none;
+  border-color: #00FFF9;
+  border-width: 15px;
+  border-top-style: dotted;
+  height: 0;
+  width: 6%;
+}
+
+#seccion7 {
+  background-color: #32005F;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.fila2 {
+  padding-bottom: 5%;
+  padding-left: 15%;
+}
+
+.parr5 {
+  font-family: "Open sans";
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1rem;
+  color: white;
+}
+
+.card-img-top1 {
+  width: 75%;
+}
+
+.botones4 {
+  padding: 2% 0;
+}
+
+.con5 {
+  background-color: #32005F;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+/* suscribirse */
+#titulo4 {
+  color: #32005F;
+}
+
+.t10 {
+  font-family: "Open sans";
+  font-weight: 800;
+  font-style: normal;
+  font-size: 3.5rem;
+  margin-top: -25%;
+}
+
+h4 {
+  font-family: "Open sans";
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1rem;
+  color: #32005F;
+}
+
+.form-control {
+  background-color: #FCD8EF;
+  font-family: "Open sans";
+  font-weight: 200;
+  font-style: italic;
+  font-size: 1rem;
+  color: #32005F;
+  border-color: #FCD8EF;
+}
+
+.con7 {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  border-bottom: 5%;
+}
+
+#con8 {
+  background-color: #32005F;
+  text-align: center;
+  margin-top: -5%;
+  padding-top: 2%;
+}
+
+/* footer */
+.icofoot {
+  width: 10%;
+}
+
+#Footer {
+  color: white;
+  background-color: #32005F;
+  line-height: 2rem;
+}
+
+.minitext {
+  font-family: "Open sans";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 0.8rem;
+}
+
+.dere {
+  font-family: "Open sans";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+
+h5 {
+  font-family: "Open sans";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+  padding-bottom: 4%;
+}
+
+ul {
+  padding: 0 5%;
+}
+
+/* contactos */
+.icocon {
+  width: 12%;
+}
+
+#h3cont {
+  font-family: "Source sans pro";
+  font-weight: 600;
+  font-size: 2rem;
+  color: #32005F;
+  text-align: center;
+  padding: 3% 0;
+}
+
+.contacto {
+  background-color: #32005F;
+  border-radius: 1%;
+  padding: 3%;
+  margin-bottom: 3%;
+}
+
+.contactos2 {
+  font-family: "Open sans";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  padding: 0 7%;
+}
+
+#lis2 {
+  color: white;
+  font-family: "Open sans";
+}
+
+.col-md-4 {
+  padding-top: 6%;
+  padding-left: 3%;
+  border-color: #FF00A0;
+  border-width: medium;
+}
+
+.info {
+  border-color: #FF00A0;
+  border-width: 50px;
+}
+
+.col-md-8 {
+  padding-left: 10%;
+}
+
+.contact-form label {
+  font-family: "Open sans";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: white;
+}
+
+.parr3 {
+  padding: 0 21%;
+}
+
+/* QUIENES SOMOS PAGINA EXTRA */
+.Q1 {
+  width: 20%;
+}
+
+#qsomos {
+  text-align: center;
+}
+
+.qsomos1 {
+  text-align: center;
+}
+
+.qsomosparr {
+  padding: 0 10%;
+  font-family: "Open sans";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #32005F;
+  line-height: 1.9rem;
+}
+
+/* construcción */
+.Q2 {
+  width: 24%;
+  margin: 3%;
+}
